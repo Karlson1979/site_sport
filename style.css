@@ -1,4 +1,6 @@
-*,body,html{
+*,
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,18 +10,21 @@
     outline: none;
 
 }
-.section-header{
-   
-background: #343030;
-padding: 10px 50px;
+
+.section-header {
+
+    background: #343030;
+    padding: 10px 50px;
 
 }
-.header{
-display: flex;
-flex-wrap: wrap;
-justify-content:space-around;
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.taun{
+
+.taun {
     margin-left: 4px;
     color: #FFF;
 
@@ -30,210 +35,238 @@ justify-content:space-around;
     line-height: normal;
     margin-top: 2px;
 }
-.v{
+
+.v {
     margin-left: 8px;
     width: 8px;
     height: 5px;
     margin-top: 10px;
 }
-.face{
+
+.face {
     margin-left: 840px;
 }
-.inst,.youtube{
+
+.inst,
+.youtube {
     margin-left: 30px;
 }
-.tel{
+
+.tel {
     margin-left: 30px;
 }
-.tel1, .tel2, .tel3, .tel4{
+
+.tel1,
+.tel2,
+.tel3,
+.tel4 {
     color: #FFF;
 
-font-family: Verdana;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-/* margin-left: 10px; */
+    font-family: Verdana;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-left: 10px; */
 }
-.eng{
+
+.eng {
     margin-left: 27px;
     color: #FFF;
 
-font-family: Verdana;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
-.v2{
+
+.v2 {
     margin-left: 8px;
     width: 8px;
     height: 5px;
     margin-top: 8px;
 }
-.line{
+
+.line {
     height: 1px;
-background: #A9A4A4;
+    background: #A9A4A4;
 }
-.section-menu{
+
+.section-menu {
     background: #343030;
     display: flex;
     flex-wrap: nowrap;
     padding: 15px 20px 10px 57px;
     justify-content: center;
     align-items: center;
-    
+
 }
-a{
+
+a {
     color: #FFF;
 
-font-family: Verdana;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
- margin-left: 50px;
- display: inline-block;
+    font-family: Verdana;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 50px;
+    display: inline-block;
 }
-.menu{
+
+.menu {
     margin-left: 136px;
     /* padding: 50px 0px 50px 0px ; */
-   display: flex;
-   flex-wrap: wrap;
-   justify-content:space-between;
-   align-items: center;
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
 }
-.div-button{
+
+.div-button {
     margin-bottom: 50px;
 }
-.sing{
+
+.sing {
     border-radius: 5px;
-background: #FF9A02;
+    background: #FF9A02;
 
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-/* width: 138px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* width: 138px;
 height: 42px; */
-/* padding: 10px 15px; */
-/* flex: none; */
-/* gap: 10px; */
-color: #000;
+    /* padding: 10px 15px; */
+    /* flex: none; */
+    /* gap: 10px; */
+    color: #000;
 
-font-family: Verdana;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 150px;
-display: inline-block;
+    font-family: Verdana;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 150px;
+    display: inline-block;
 
 }
-.v3{
+
+.v3 {
     margin-left: 8px;
     width: 8px;
     height: 5px;
     margin-bottom: 3px;
 }
-.woman{
+
+.woman {
     background: url(./img/young-woman-exercising-with-headphones-in-gym-generated-by-ai\ 1.png), no-repeat, bottom center;
     /* width: 1441px; */
-/* height: 665px; */
+    height: 665px;
 }
-h1{
+
+h1 {
     color: #FFF;
 
-font-family: Verdana;
-font-size: 57.273px;
-font-style: normal;
-font-weight: 700;
-line-height: 80px; /* 139.683% */
-text-transform: uppercase;
-padding: 92px 947px 413px 48px;
+    font-family: Verdana;
+    font-size: 57.273px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 80px; 139.683% */
+    text-transform: uppercase;
+    /* padding: 92px 947px 413px 48px; */
+    padding: 92px 0 0 48px;
 }
-/* .button-count{
-border-radius: 3.898px;
-background: #FF9A02;
 
-margin-left: 50px;
-color: #FFF;
+.button-count {
+    border-radius: 3.898px;
+    background: #FF9A02;
 
-} */
-.content{
+    margin-left: 50px;
+    color: #FFF;
+
+}
+
+.content {
     background: #B8B1B1;
-    padding: 51px 42px ;
+    padding: 51px 42px;
     display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.add{
+
+.add {
     background: url(./img/add.jpg), no-repeat;
     width: 400px;
-height: 540px;
-flex-shrink: 0;
-border-radius: 30px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 30px;
 }
 
 
-.our{
+.our {
     background: url(./img/high-angle-palette-and-dumbbells\ 1.svg);
     width: 400px;
-height: 540px;
-flex-shrink: 0;
-border-radius: 30px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 30px;
 }
-.spec{
+
+.spec {
     background: url(./img/spec.jpg), no-repeat;
     width: 400px;
-height: 540px;
-flex-shrink: 0;
-border-radius: 30px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 30px;
 }
-h2{
+
+h2 {
     color: #FFF;
 
-text-align: center;
-font-family: Verdana;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-padding-top: 170px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 170px;
 }
-h3{
+
+h3 {
     color: #FFF;
 
-text-align: center;
-font-family: Verdana;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-top: 29px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 29px;
 }
-h4{
+
+h4 {
     color: #FFF;
 
-text-align: center;
-font-family: Verdana;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-top: 45px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 45px;
 }
-button{
+
+button {
     border-radius: 3.898px;
-background: #FF9A02;
-display: flex;
-width: 134px;
-padding: 11.695px 19.492px;
-justify-content: center;
-align-items: center;
-gap: 7.797px;
-color: #FFF;
-margin-top: 50px;
-margin-left: 35%;
+    background: #FF9A02;
+    display: flex;
+    width: 134px;
+    padding: 11.695px 19.492px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.797px;
+    color: #FFF;
+    margin-top: 50px;
+    margin-left: 35%;
 }
-
