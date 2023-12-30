@@ -17,19 +17,25 @@ html {
     padding: 10px 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
 }
+
+
 
 .header {
     display: flex;
     flex-wrap: wrap;
     /* justify-content: end; */
-   
-}
-.face,.inst,.youtube{
-margin-left:25px;
 
 }
+
+.face,
+.inst,
+.youtube {
+    margin-left: 25px;
+
+}
+
 .taun {
     margin-left: 4px;
     color: #FFF;
@@ -54,8 +60,7 @@ margin-left:25px;
     margin-left: 80px;
 }
 
-.tel1
-{
+.tel1 {
     color: #FFF;
 
     font-family: Verdana;
@@ -84,7 +89,53 @@ margin-left:25px;
     height: 5px;
     margin-top: 8px;
 }
+.section-menu1{
+display: none;
+}
+.header1{
+    display: none;
+   }
+   .tel1{
+    display: none;
+   }
 
+   @media (nax-width:1450px){
+    .section-menu{
+      
+    }
+   }
+
+@media (max-width:615px) {
+
+    
+   
+
+    .btn-burg{
+    font-size: 20px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    display: block;
+   } 
+   .menu-list{
+    display: none;
+   }
+   .line{
+    display: none;
+   }
+   .menu-list{
+    display: none;
+   }
+
+   }  
+
+
+
+
+   .btn-burg{
+    display: none;
+   } 
+   
 .line {
     height: 1px;
     background: #A9A4A4;
@@ -93,7 +144,7 @@ margin-left:25px;
 .section-menu {
     background: #343030;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 15px 20px 10px 57px;
     justify-content: center;
     align-items: center;
@@ -111,31 +162,19 @@ a {
     margin-left: 50px;
     display: inline-block;
 }
-.tel-block{
+
+.tel-block {
     display: flex;
 }
 
-@media (max-width:620px){
-    
-    /* .section-header{
-        display: block;
-    }; */
-    .header{
-      justify-content: center;
-        
-    };
-    .face,.inst,.youtube{
-        margin-left:0px;
-        
-        };
-    };
+
 
 .menu {
     margin-left: 136px;
     /* padding: 50px 0px 50px 0px ; */
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 
 }
@@ -212,7 +251,7 @@ h1 {
 .add {
     background: url(./img/add.jpg), no-repeat;
     width: 400px;
- height: 540px;
+    height: 540px;
     flex-shrink: 0;
     border-radius: 30px;
 }
